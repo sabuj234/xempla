@@ -1,0 +1,10 @@
+.FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 30px auto;
+}
+
+.FooterLeft {
+    opacity: .7;
+}

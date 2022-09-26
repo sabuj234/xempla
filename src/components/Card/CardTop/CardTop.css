@@ -1,0 +1,41 @@
+.CardUpperSection{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.SectionLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.ackn{
+    font-size: 10px;
+}
+
+.CardDate {
+    white-space: pre;
+    color:rgb(182, 181, 181);
+    padding-top: 5px;
+}
+
+.SectionRight{
+    display: flex;
+}
+
+.FilterContainer {
+    width: 25%;
+}
+
+.CardType{
+    background-color: rgb(255, 54, 54);
+    width:2rem;
+    color: aliceblue;
+    margin-top: -1rem;
+}
+b{
+    font-size: 15px;
+}

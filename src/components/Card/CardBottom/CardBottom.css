@@ -1,0 +1,15 @@
+.CardLowerContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.ViewAllRightSection{
+    display: flex;
+    gap: 5px;
+}
+.btn{
+    max-height: 2rem;
+    font-size: 10;
+}

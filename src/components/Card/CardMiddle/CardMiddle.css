@@ -1,0 +1,56 @@
+.CardMiddleContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.Text {
+    color: #5C5C5C;
+    opacity: .7;
+}
+
+.Heading{
+    color: black;
+}
+
+.Info {
+    display: flex;
+    font-size: 10px;
+    p {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+
+        span {
+            &:last-child {
+                color: #5C5C5C;
+                opacity: .7;
+            }
+        }
+
+        &:not(:first-child) {
+            padding-left: 10px;
+        }
+
+        &:not(:last-child) {
+            border-right: 2px solid rgb(187, 183, 183);
+        }
+    }
+}
+
+.PriorityType {
+    color: red;
+}
+.Priority{
+    background-color: rgb(243, 242, 242);
+    max-width: 5rem;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+P {
+    margin: 0px;
+    opacity: 1;
+}
